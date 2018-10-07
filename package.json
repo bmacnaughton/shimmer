@@ -1,6 +1,6 @@
 {
-  "name": "shimmer",
-  "version": "1.2.0",
+  "name": "ximmer",
+  "version": "1.0.0",
   "description": "Safe(r) monkeypatching for JavaScript.",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,9 @@
     "shim"
   ],
   "author": "Forrest L Norvell <ogd@aoaioxxysz.net>",
+  "contributors": [
+    "Bruce A. MacNaughton <bmacnaughton@gmail.com>"
+  ],
   "license": "BSD-2-Clause",
   "devDependencies": {
     "sinon": "^1.17.2",

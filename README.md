@@ -3,6 +3,11 @@
 
 ## Safer monkeypatching for Node.js
 
+`ximmer` is a fork of othiym23's `shimmer` with a single change - use `typeof funktion === 'function'` rather
+than `{}.toString.call(funktion) === '[object Function]'`. This allows funktion to be a regular function, a generator function, or an async function.
+
+Following this line `shimmer` refers to `ximmer` or `shimmier`.
+
 `shimmer` does a bunch of the work necessary to wrap other methods in
 a wrapper you provide:
 
